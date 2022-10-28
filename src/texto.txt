@@ -1,0 +1,23 @@
+<main>
+        <div className="container mt-5 w-75">
+          <form onClick={handleSubmit}>
+            {/* {preguntas.map((elemento, index) => {
+              const { id, pregunta, opciones } = elemento;
+              return (
+                <div key={id}>
+                  <p>{index + 1}. {pregunta}</p>
+                  <ul className="p-0">
+                    {opciones.map((opcion, index) => (
+                      <div key={index}>
+                        <input type="radio" name={id} value={opcion} />
+                        <label className="ms-2">{opcion}</label>
+                      </div>
+                    ))}
+                  </ul>
+                </div>
+              )
+            })} */}
+            <input className="btn btn-success w-50 d-block m-auto mt-5 mb-3"  type="submit" value="Enviar"/>
+          </form>
+        </div>
+      </main>
